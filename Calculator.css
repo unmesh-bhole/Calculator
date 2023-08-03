@@ -1,0 +1,118 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    min-height: 100vh;
+    /* background-color:rgb(229,229,229); */
+    background-color:rgb(255, 228, 219);
+}
+
+h1{
+    padding-left: 20px;
+    padding-top: 10px;
+    margin: 0;
+    
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.calculator{
+    width: 100%; 
+    
+    max-width: 320px;
+    font-family: 'Lato', sans-serif;
+}
+.display{
+     background-color: rgb(58,71,78);
+     border: 2px solid rgb(229,229,229);
+     border-bottom: 0px;
+     border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+input{
+    height: 18vh;
+    width: 98%;
+    background: transparent;
+    color: rgb(169,169,169);
+    text-align: right;
+    font-size: 50px;
+    
+}
+.input::placeholder{
+    background: transparent;
+    color: rgb(169,169,169);
+}
+.container{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 2px solid rgb(229,229,229);
+    border-top: 0px;
+    background-color: rgb(26,32,41);
+    height: 50vh;
+    height: 100%;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-around;
+}
+.row2{
+    display: flex;
+    justify-content: space-around;
+}
+.row3{
+    display: flex;
+    justify-content: space-around;
+}
+.row4{
+    display: flex;
+    justify-content: space-around;
+}
+.row5{
+    display: flex;
+    justify-content: space-around;
+}
+.button{
+    width:60px;
+    height: 60px;
+    margin: 10px;
+    font-size:23px;
+    background: transparent;
+    border: none;
+    color: antiquewhite;
+    font-family: 'Lato', sans-serif; 
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(61,71,77);
+    border-radius: 50%;
+    width:60px;
+    height: 60px;
+    margin: 10px;
+    font-size:23px;
+    border: none;
+    color: rgb(169,169,169);
+    font-family: 'Lato', sans-serif; 
+    cursor: pointer;
+}
+#operator{
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+}
+#operator:hover{
+    background-color:rgb(221, 199, 190);
+    border-radius: 50%;
+    color: black;
+}
+
+#equal{
+    border-radius: 50%;
+    background-color: rgb(237,111,66);
+    color: white;
+}
